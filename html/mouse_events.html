@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse In and Mouse Out Example</title>
+</head>
+<body>
+  <div id="myElement" style="width: 200px; height: 100px; background-color: lightblue;">
+    <p>Move your mouse over this area.</p>
+  </div>
+
+  <script>
+    // Get the element by its ID
+    const myElement = document.getElementById("myElement");
+
+    // Function to handle mouseover event
+    function handleMouseOver() {
+      myElement.style.backgroundColor = "green";
+    }
+
+    // Function to handle mouseout event
+    function handleMouseOut() {
+      myElement.style.backgroundColor = "blue";
+    }
+
+    // Add event listeners for mouseover and mouseout
+    myElement.addEventListener("mouseover", handleMouseOver);
+    myElement.addEventListener("mouseout", handleMouseOut);
+  </script>
+</body>
+</html>

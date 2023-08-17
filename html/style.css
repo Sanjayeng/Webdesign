@@ -1,0 +1,26 @@
+p{
+    margin-left: 100PX;
+    color: rgb(0, 255, 221);
+    text-align: justify;
+    padding-right: 150px;
+}
+body{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dcolorful%2Bscenery&psig=AOvVaw1lg811brIlSt8TdaKW_ifZ&ust=1686624323333000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCKgrHbvP8CFQAAAAAdAAAAABAE");
+    background-repeat: no-repeat;
+    background-size: 1000px 600px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.odd{
+    color: blueviolet;
+}
+.even{
+    color: brown;
+}
+#third{
+    color: rgb(214, 255, 205);
+}
