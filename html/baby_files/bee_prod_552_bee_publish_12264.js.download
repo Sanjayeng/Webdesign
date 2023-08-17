@@ -1,0 +1,1363 @@
+/**
+*_BEE_DATA会通过选中的数据源后替换掉
+* 结构可以参考数据源结构
+**/
+const { createNewImageOptionList, createNewImageConfig } = {
+	"bee_dsrc_14485": [
+		{
+			"id": 1448500000001,
+			"createNewVideoList": [
+				{
+					"id": "auto_canvas",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_auto_canvas_new_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_auto_canvas_new_new.png",
+					"titleKey": "web_toolsIntergration_blank_canvas",
+					"contentKey": "",
+					"routeQuery": {
+						"scenario": "custom",
+						"scale": ""
+					}
+				},
+				{
+					"id": "16_9",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_16_9_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_16_9_new.png",
+					"titleKey": "16:9",
+					"contentKey": "web_toolsIntergration_text_youtube_facebook",
+					"routeQuery": {
+						"scenario": "youtube_ads",
+						"scale": "16:9"
+					}
+				},
+				{
+					"id": "9_16",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_9_16_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_9_16_new.png",
+					"titleKey": "9:16",
+					"contentKey": "web_toolsIntergration_text_tiktok_youtube",
+					"routeQuery": {
+						"scenario": "tiktok_ads",
+						"scale": "9:16"
+					}
+				},
+				{
+					"id": "1_1",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_1_1_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_1_1_new.png",
+					"titleKey": "1:1",
+					"contentKey": "web_toolsIntergration_text_instagram_linkedin",
+					"routeQuery": {
+						"scenario": "instagram_post",
+						"scale": "1:1"
+					}
+				}
+			],
+			"createNewImageList": [
+				{
+					"id": "custom_size",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_custom_size_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_custom_size_new.png",
+					"titleKey": "web_toolsIntergration_custom_size",
+					"contentKey": "",
+					"routeQuery": {
+						"scenario": "custom",
+						"width": 0,
+						"height": 0,
+						"unit": "px",
+						"scale": ""
+					}
+				},
+				{
+					"id": "instagram_post",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_instagram.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_instagram.png",
+					"titleKey": "web_toolsIntergration_instagram_post",
+					"contentKey": "1080×1080px",
+					"routeQuery": {
+						"scenario": "instagram_post",
+						"width": 1080,
+						"height": 1080,
+						"unit": "px",
+						"scale": "1080*1080px"
+					}
+				},
+				{
+					"id": "instagram_story",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_instagram.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_instagram.png",
+					"titleKey": "web_toolsIntergration_instagram_story",
+					"contentKey": "1080×1920px",
+					"routeQuery": {
+						"scenario": "instagram_story",
+						"width": 1080,
+						"height": 1920,
+						"unit": "px",
+						"scale": "940*788px"
+					}
+				},
+				{
+					"id": "facebook_post",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_facebook.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_facebook.png",
+					"titleKey": "web_toolsIntergration_facebook_post",
+					"contentKey": "940×788px",
+					"routeQuery": {
+						"scenario": "facebook_post",
+						"width": 940,
+						"height": 788,
+						"unit": "px",
+						"scale": "940*788px"
+					}
+				}
+			],
+			"createNewToolConfig": {
+				"1": {
+					"id": "1",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_text_to_image_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_text_to_image_icon.png",
+					"titleKey": "web_magicTools_title_text_to_image",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/convert-text-to-image"
+					}
+				},
+				"2": {
+					"id": "2",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_image_to_image_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_image_to_image_icon.png",
+					"titleKey": "web_magicTools_title_image_to_image",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/generate-image"
+					}
+				},
+				"3": {
+					"id": "3",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_portrait_generator_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_portrait_generator_icon.png",
+					"titleKey": "web_magicTools_title_portrait_generator",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/generate-portrait"
+					}
+				},
+				"4": {
+					"id": "4",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_low_light_image_enhancement_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_low_light_image_enhancement_icon.png",
+					"titleKey": "web_magicTools_button_image_night_enhance",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/enhance-low-light-image"
+					}
+				},
+				"5": {
+					"id": "5",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_image_style_transfer_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_image_style_transfer_icon.png",
+					"titleKey": "web_magicTools_button_image_style_conversion",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/stylize-photo"
+					}
+				},
+				"6": {
+					"id": "6",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_image_upscaler_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_image_upscaler_icon.png",
+					"titleKey": "web_magicTools_button_image_upscaler",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/upscale-image"
+					}
+				},
+				"7": {
+					"id": "7",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_ai_color_correction_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_ai_color_correction_icon.png",
+					"titleKey": "web_magicTools_button_image_color_correction",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/correct-color"
+					}
+				},
+				"8": {
+					"id": "8",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_photo_colorizer_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_photo_colorizer_icon.png",
+					"titleKey": "web_magicTools_button_photo_colorizer",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/ai-colorize"
+					}
+				},
+				"9": {
+					"id": "9",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_old_photo_restoration_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_old_photo_restoration_icon.png",
+					"titleKey": "web_magicTools_button_old_photo_restoration",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/ai-restore"
+					}
+				},
+				"10": {
+					"id": "10",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_video_style_transfer_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_video_style_transfer_icon.png",
+					"titleKey": "web_magicTools_button_video_style_transfer",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/stylize-video"
+					}
+				},
+				"11": {
+					"id": "11",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_video_upscaler_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_video_upscaler_icon.png",
+					"titleKey": "web_magicTools_button_super_clarity_video",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/upscale-video"
+					}
+				},
+				"12": {
+					"id": "12",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_super_slow_motion_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_super_slow_motion_icon.png",
+					"titleKey": "web_magicTools_button_super_slow_motion",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/make-slomo"
+					}
+				},
+				"13": {
+					"id": "13",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_video_stabilization_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_video_stabilization_icon.png",
+					"titleKey": "web_magicTools_button_video_stablizer",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/stablize-video"
+					}
+				},
+				"1001": {
+					"id": "1001",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_resize_video_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_resize_video_icon.png",
+					"titleKey": "web_Resize_video",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/editor-tools/transform"
+					}
+				},
+				"1002": {
+					"id": "1002",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_remove_bg_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_remove_bg_icon.png",
+					"titleKey": "web_Remove_background",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/editor-tools/cutout"
+					}
+				},
+				"1003": {
+					"id": "1003",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_ad_script_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_ad_script_icon.png",
+					"titleKey": "web_ad_script",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/editor-tools/script"
+					}
+				}
+			}
+		}
+	],
+	"bee_dsrc_14606": [
+		{
+			"id": 1460600000001,
+			"createNewImageConfig": {
+				"customSize": {
+					"showCustomSize": true,
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_button_recommend",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_post.png",
+								"titleKey": "web_toolsIntergration_instagram_post",
+								"content": "1080×1080px",
+								"scenario": "instagram_post",
+								"extInfo": {
+									"width": 1080,
+									"height": 1080,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_story.png",
+								"titleKey": "web_toolsIntergration_instagram_story",
+								"content": "1080×1920px",
+								"scenario": "instagram_story",
+								"extInfo": {
+									"width": 1080,
+									"height": 1920,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_post.png",
+								"titleKey": "web_toolsIntergration_facebook_post",
+								"content": "940×788px",
+								"scenario": "facebook_post",
+								"extInfo": {
+									"width": 940,
+									"height": 788,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_tiktok.png",
+								"titleKey": "web_toolsIntergration_tiktok",
+								"content": "1080×1920px",
+								"scenario": "tiktok",
+								"extInfo": {
+									"width": 1080,
+									"height": 1920,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_youtube_thumbnail.png",
+								"titleKey": "web_toolsIntergration_youtube_thumbnail",
+								"content": "1280×720px",
+								"scenario": "youtube_thumbnail",
+								"extInfo": {
+									"width": 1280,
+									"height": 720,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitter_post.png",
+								"titleKey": "web_toolsIntergration_twitter_post",
+								"content": "1600×900px",
+								"scenario": "twitter_post",
+								"extInfo": {
+									"width": 1600,
+									"height": 900,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"twitter": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_twitter_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitter_header.png",
+								"titleKey": "web_toolsIntergration_twitter_header",
+								"content": "1500×500px",
+								"scenario": "twitter_header",
+								"extInfo": {
+									"width": 1500,
+									"height": 500,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitter_profile.png",
+								"titleKey": "web_toolsIntergration_twitter_profile",
+								"content": "1080×1080px",
+								"scenario": "twitter_profile",
+								"extInfo": {
+									"width": 1080,
+									"height": 1080,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitter_post.png",
+								"titleKey": "web_toolsIntergration_twitter_post",
+								"content": "1600×900px",
+								"scenario": "twitter_post",
+								"extInfo": {
+									"width": 1600,
+									"height": 900,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"snapchat": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_snapchat_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_snapchat_geofilter.png",
+								"titleKey": "web_toolsIntergration_snapchat_geofilter",
+								"content": "1500×500px",
+								"scenario": "snapchat_geofilter",
+								"extInfo": {
+									"width": 1500,
+									"height": 500,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"linkedIn": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_linkedin_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_linkedIn_banner.png",
+								"titleKey": "web_toolsIntergration_linkedIn_banner",
+								"content": "1584×396px",
+								"scenario": "linkedIn_banner",
+								"extInfo": {
+									"width": 1584,
+									"height": 396,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_linkedIn_company_banner.png",
+								"titleKey": "web_toolsIntergration_linkedIn_company",
+								"content": "1536×768px",
+								"scenario": "linkedIn_company_banner",
+								"extInfo": {
+									"width": 1536,
+									"height": 768,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_linkedIn_post.png",
+								"titleKey": "web_toolsIntergration_linkedIn_post",
+								"content": "1200×1200px",
+								"scenario": "linkedIn_post",
+								"extInfo": {
+									"width": 1200,
+									"height": 1200,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"tikTok": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_tiktok_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_tiktok.png",
+								"titleKey": "web_toolsIntergration_tiktok",
+								"content": "1080×1920px",
+								"scenario": "tiktok",
+								"extInfo": {
+									"width": 1080,
+									"height": 1920,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"twitch": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_twitch_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitch_cove.png",
+								"titleKey": "web_toolsIntergration_twitch_cove",
+								"content": "1200×480px",
+								"scenario": "twitch_cove",
+								"extInfo": {
+									"width": 1200,
+									"height": 480,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitch_banner_new.png",
+								"titleKey": "web_toolsIntergration_twitch_banner",
+								"content": "1920×1080px",
+								"scenario": "twitch_banner",
+								"extInfo": {
+									"width": 1920,
+									"height": 1080,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"youtube": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_youtube_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_youtube_thumbnail.png",
+								"titleKey": "web_toolsIntergration_youtube_thumbnail",
+								"content": "1280×720px",
+								"scenario": "youtube_thumbnail",
+								"extInfo": {
+									"width": 1280,
+									"height": 720,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_youtube_intro.png",
+								"titleKey": "web_toolsIntergration_youtube_intro",
+								"content": "1920×1080px",
+								"scenario": "youtube_intro",
+								"extInfo": {
+									"width": 1920,
+									"height": 1080,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_youtube_end_screen.png",
+								"titleKey": "web_toolsIntergration_youtube_end_screen",
+								"content": "1920×1080px",
+								"scenario": "youtube_end_screen",
+								"extInfo": {
+									"width": 1920,
+									"height": 1080,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"instagram": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_instagram_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_post.png",
+								"titleKey": "web_toolsIntergration_instagram_post",
+								"content": "1080×1080px",
+								"scenario": "instagram_post",
+								"extInfo": {
+									"width": 1080,
+									"height": 1080,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_story.png",
+								"titleKey": "web_toolsIntergration_instagram_story",
+								"content": "1080×1920px",
+								"scenario": "instagram_story",
+								"extInfo": {
+									"width": 1080,
+									"height": 1920,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_profile.png",
+								"titleKey": "web_toolsIntergration_instagram_profile",
+								"content": "800×800px",
+								"scenario": "instagram_profile",
+								"extInfo": {
+									"width": 800,
+									"height": 800,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_portrait.png",
+								"titleKey": "web_toolsIntergration__instagram_portrait",
+								"content": "1080×1350px",
+								"scenario": "instagram_portrait",
+								"extInfo": {
+									"width": 1080,
+									"height": 1350,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"facebook": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_facebook_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_post.png",
+								"titleKey": "web_toolsIntergration_facebook_post",
+								"content": "940×788px",
+								"scenario": "facebook_post",
+								"extInfo": {
+									"width": 940,
+									"height": 788,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_cover.png",
+								"titleKey": "web_toolsIntergration_facebook_cover",
+								"content": "1640×924px",
+								"scenario": "facebook_cover",
+								"extInfo": {
+									"width": 1640,
+									"height": 924,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_ad.png",
+								"titleKey": "web_toolsIntergration_facebook_ad",
+								"content": "810×450px",
+								"scenario": "facebook_ad",
+								"extInfo": {
+									"width": 810,
+									"height": 450,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_app_ad.png",
+								"titleKey": "web_toolsIntergration_facebook_app_ad",
+								"content": "1200×628px",
+								"scenario": "facebook_app_ad",
+								"extInfo": {
+									"width": 1200,
+									"height": 628,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				}
+			},
+			"createNewImageOptionList": [
+				{
+					"type": "customSize",
+					"titleKey": "web_toolsIntergration_custom_size"
+				},
+				{
+					"type": "instagram",
+					"titleKey": "web_toolsIntergration_instagram_size"
+				},
+				{
+					"type": "facebook",
+					"titleKey": "web_toolsIntergration_facebook_size"
+				},
+				{
+					"type": "youtube",
+					"titleKey": "web_toolsIntergration_youtube_size"
+				},
+				{
+					"type": "tikTok",
+					"titleKey": "web_toolsIntergration_tiktok_size"
+				},
+				{
+					"type": "twitter",
+					"titleKey": "web_toolsIntergration_twitter_size"
+				},
+				{
+					"type": "linkedIn",
+					"titleKey": "web_toolsIntergration_linkedin_size"
+				},
+				{
+					"type": "snapchat",
+					"titleKey": "web_toolsIntergration_snapchat_size"
+				},
+				{
+					"type": "twitch",
+					"titleKey": "web_toolsIntergration_twitch_size"
+				}
+			]
+		}
+	]
+}['bee_dsrc_14606'][0];
+const { createNewVideoList, createNewImageList, createNewToolConfig } = {
+	"bee_dsrc_14485": [
+		{
+			"id": 1448500000001,
+			"createNewVideoList": [
+				{
+					"id": "auto_canvas",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_auto_canvas_new_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_auto_canvas_new_new.png",
+					"titleKey": "web_toolsIntergration_blank_canvas",
+					"contentKey": "",
+					"routeQuery": {
+						"scenario": "custom",
+						"scale": ""
+					}
+				},
+				{
+					"id": "16_9",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_16_9_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_16_9_new.png",
+					"titleKey": "16:9",
+					"contentKey": "web_toolsIntergration_text_youtube_facebook",
+					"routeQuery": {
+						"scenario": "youtube_ads",
+						"scale": "16:9"
+					}
+				},
+				{
+					"id": "9_16",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_9_16_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_9_16_new.png",
+					"titleKey": "9:16",
+					"contentKey": "web_toolsIntergration_text_tiktok_youtube",
+					"routeQuery": {
+						"scenario": "tiktok_ads",
+						"scale": "9:16"
+					}
+				},
+				{
+					"id": "1_1",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_1_1_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_1_1_new.png",
+					"titleKey": "1:1",
+					"contentKey": "web_toolsIntergration_text_instagram_linkedin",
+					"routeQuery": {
+						"scenario": "instagram_post",
+						"scale": "1:1"
+					}
+				}
+			],
+			"createNewImageList": [
+				{
+					"id": "custom_size",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_custom_size_new.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_custom_size_new.png",
+					"titleKey": "web_toolsIntergration_custom_size",
+					"contentKey": "",
+					"routeQuery": {
+						"scenario": "custom",
+						"width": 0,
+						"height": 0,
+						"unit": "px",
+						"scale": ""
+					}
+				},
+				{
+					"id": "instagram_post",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_instagram.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_instagram.png",
+					"titleKey": "web_toolsIntergration_instagram_post",
+					"contentKey": "1080×1080px",
+					"routeQuery": {
+						"scenario": "instagram_post",
+						"width": 1080,
+						"height": 1080,
+						"unit": "px",
+						"scale": "1080*1080px"
+					}
+				},
+				{
+					"id": "instagram_story",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_instagram.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_instagram.png",
+					"titleKey": "web_toolsIntergration_instagram_story",
+					"contentKey": "1080×1920px",
+					"routeQuery": {
+						"scenario": "instagram_story",
+						"width": 1080,
+						"height": 1920,
+						"unit": "px",
+						"scale": "940*788px"
+					}
+				},
+				{
+					"id": "facebook_post",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_icon_facebook.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/create_new_dark_icon_facebook.png",
+					"titleKey": "web_toolsIntergration_facebook_post",
+					"contentKey": "940×788px",
+					"routeQuery": {
+						"scenario": "facebook_post",
+						"width": 940,
+						"height": 788,
+						"unit": "px",
+						"scale": "940*788px"
+					}
+				}
+			],
+			"createNewToolConfig": {
+				"1": {
+					"id": "1",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_text_to_image_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_text_to_image_icon.png",
+					"titleKey": "web_magicTools_title_text_to_image",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/convert-text-to-image"
+					}
+				},
+				"2": {
+					"id": "2",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_image_to_image_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_image_to_image_icon.png",
+					"titleKey": "web_magicTools_title_image_to_image",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/generate-image"
+					}
+				},
+				"3": {
+					"id": "3",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_portrait_generator_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_portrait_generator_icon.png",
+					"titleKey": "web_magicTools_title_portrait_generator",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/generate-portrait"
+					}
+				},
+				"4": {
+					"id": "4",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_low_light_image_enhancement_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_low_light_image_enhancement_icon.png",
+					"titleKey": "web_magicTools_button_image_night_enhance",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/enhance-low-light-image"
+					}
+				},
+				"5": {
+					"id": "5",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_image_style_transfer_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_image_style_transfer_icon.png",
+					"titleKey": "web_magicTools_button_image_style_conversion",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/stylize-photo"
+					}
+				},
+				"6": {
+					"id": "6",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_image_upscaler_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_image_upscaler_icon.png",
+					"titleKey": "web_magicTools_button_image_upscaler",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/upscale-image"
+					}
+				},
+				"7": {
+					"id": "7",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_ai_color_correction_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_ai_color_correction_icon.png",
+					"titleKey": "web_magicTools_button_image_color_correction",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/correct-color"
+					}
+				},
+				"8": {
+					"id": "8",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_photo_colorizer_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_photo_colorizer_icon.png",
+					"titleKey": "web_magicTools_button_photo_colorizer",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/ai-colorize"
+					}
+				},
+				"9": {
+					"id": "9",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_old_photo_restoration_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_old_photo_restoration_icon.png",
+					"titleKey": "web_magicTools_button_old_photo_restoration",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/ai-restore"
+					}
+				},
+				"10": {
+					"id": "10",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_video_style_transfer_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_video_style_transfer_icon.png",
+					"titleKey": "web_magicTools_button_video_style_transfer",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/stylize-video"
+					}
+				},
+				"11": {
+					"id": "11",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_video_upscaler_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_video_upscaler_icon.png",
+					"titleKey": "web_magicTools_button_super_clarity_video",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/upscale-video"
+					}
+				},
+				"12": {
+					"id": "12",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_super_slow_motion_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_super_slow_motion_icon.png",
+					"titleKey": "web_magicTools_button_super_slow_motion",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/make-slomo"
+					}
+				},
+				"13": {
+					"id": "13",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_video_stabilization_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_video_stabilization_icon.png",
+					"titleKey": "web_magicTools_button_video_stablizer",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/magic-tools/stablize-video"
+					}
+				},
+				"1001": {
+					"id": "1001",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_resize_video_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_resize_video_icon.png",
+					"titleKey": "web_Resize_video",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/editor-tools/transform"
+					}
+				},
+				"1002": {
+					"id": "1002",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_remove_bg_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_remove_bg_icon.png",
+					"titleKey": "web_Remove_background",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/editor-tools/cutout"
+					}
+				},
+				"1003": {
+					"id": "1003",
+					"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_ad_script_icon.png",
+					"darkIcon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/panel_dark_ad_script_icon.png",
+					"titleKey": "web_ad_script",
+					"contentKey": "",
+					"routeQuery": {
+						"path": "/editor-tools/script"
+					}
+				}
+			}
+		}
+	],
+	"bee_dsrc_14606": [
+		{
+			"id": 1460600000001,
+			"createNewImageConfig": {
+				"customSize": {
+					"showCustomSize": true,
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_button_recommend",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_post.png",
+								"titleKey": "web_toolsIntergration_instagram_post",
+								"content": "1080×1080px",
+								"scenario": "instagram_post",
+								"extInfo": {
+									"width": 1080,
+									"height": 1080,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_story.png",
+								"titleKey": "web_toolsIntergration_instagram_story",
+								"content": "1080×1920px",
+								"scenario": "instagram_story",
+								"extInfo": {
+									"width": 1080,
+									"height": 1920,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_post.png",
+								"titleKey": "web_toolsIntergration_facebook_post",
+								"content": "940×788px",
+								"scenario": "facebook_post",
+								"extInfo": {
+									"width": 940,
+									"height": 788,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_tiktok.png",
+								"titleKey": "web_toolsIntergration_tiktok",
+								"content": "1080×1920px",
+								"scenario": "tiktok",
+								"extInfo": {
+									"width": 1080,
+									"height": 1920,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_youtube_thumbnail.png",
+								"titleKey": "web_toolsIntergration_youtube_thumbnail",
+								"content": "1280×720px",
+								"scenario": "youtube_thumbnail",
+								"extInfo": {
+									"width": 1280,
+									"height": 720,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitter_post.png",
+								"titleKey": "web_toolsIntergration_twitter_post",
+								"content": "1600×900px",
+								"scenario": "twitter_post",
+								"extInfo": {
+									"width": 1600,
+									"height": 900,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"twitter": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_twitter_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitter_header.png",
+								"titleKey": "web_toolsIntergration_twitter_header",
+								"content": "1500×500px",
+								"scenario": "twitter_header",
+								"extInfo": {
+									"width": 1500,
+									"height": 500,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitter_profile.png",
+								"titleKey": "web_toolsIntergration_twitter_profile",
+								"content": "1080×1080px",
+								"scenario": "twitter_profile",
+								"extInfo": {
+									"width": 1080,
+									"height": 1080,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitter_post.png",
+								"titleKey": "web_toolsIntergration_twitter_post",
+								"content": "1600×900px",
+								"scenario": "twitter_post",
+								"extInfo": {
+									"width": 1600,
+									"height": 900,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"snapchat": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_snapchat_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_snapchat_geofilter.png",
+								"titleKey": "web_toolsIntergration_snapchat_geofilter",
+								"content": "1500×500px",
+								"scenario": "snapchat_geofilter",
+								"extInfo": {
+									"width": 1500,
+									"height": 500,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"linkedIn": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_linkedin_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_linkedIn_banner.png",
+								"titleKey": "web_toolsIntergration_linkedIn_banner",
+								"content": "1584×396px",
+								"scenario": "linkedIn_banner",
+								"extInfo": {
+									"width": 1584,
+									"height": 396,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_linkedIn_company_banner.png",
+								"titleKey": "web_toolsIntergration_linkedIn_company",
+								"content": "1536×768px",
+								"scenario": "linkedIn_company_banner",
+								"extInfo": {
+									"width": 1536,
+									"height": 768,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_linkedIn_post.png",
+								"titleKey": "web_toolsIntergration_linkedIn_post",
+								"content": "1200×1200px",
+								"scenario": "linkedIn_post",
+								"extInfo": {
+									"width": 1200,
+									"height": 1200,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"tikTok": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_tiktok_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_tiktok.png",
+								"titleKey": "web_toolsIntergration_tiktok",
+								"content": "1080×1920px",
+								"scenario": "tiktok",
+								"extInfo": {
+									"width": 1080,
+									"height": 1920,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"twitch": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_twitch_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitch_cove.png",
+								"titleKey": "web_toolsIntergration_twitch_cove",
+								"content": "1200×480px",
+								"scenario": "twitch_cove",
+								"extInfo": {
+									"width": 1200,
+									"height": 480,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_twitch_banner_new.png",
+								"titleKey": "web_toolsIntergration_twitch_banner",
+								"content": "1920×1080px",
+								"scenario": "twitch_banner",
+								"extInfo": {
+									"width": 1920,
+									"height": 1080,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"youtube": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_youtube_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_youtube_thumbnail.png",
+								"titleKey": "web_toolsIntergration_youtube_thumbnail",
+								"content": "1280×720px",
+								"scenario": "youtube_thumbnail",
+								"extInfo": {
+									"width": 1280,
+									"height": 720,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_youtube_intro.png",
+								"titleKey": "web_toolsIntergration_youtube_intro",
+								"content": "1920×1080px",
+								"scenario": "youtube_intro",
+								"extInfo": {
+									"width": 1920,
+									"height": 1080,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_youtube_end_screen.png",
+								"titleKey": "web_toolsIntergration_youtube_end_screen",
+								"content": "1920×1080px",
+								"scenario": "youtube_end_screen",
+								"extInfo": {
+									"width": 1920,
+									"height": 1080,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"instagram": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_instagram_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_post.png",
+								"titleKey": "web_toolsIntergration_instagram_post",
+								"content": "1080×1080px",
+								"scenario": "instagram_post",
+								"extInfo": {
+									"width": 1080,
+									"height": 1080,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_story.png",
+								"titleKey": "web_toolsIntergration_instagram_story",
+								"content": "1080×1920px",
+								"scenario": "instagram_story",
+								"extInfo": {
+									"width": 1080,
+									"height": 1920,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_profile.png",
+								"titleKey": "web_toolsIntergration_instagram_profile",
+								"content": "800×800px",
+								"scenario": "instagram_profile",
+								"extInfo": {
+									"width": 800,
+									"height": 800,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_instagram_portrait.png",
+								"titleKey": "web_toolsIntergration__instagram_portrait",
+								"content": "1080×1350px",
+								"scenario": "instagram_portrait",
+								"extInfo": {
+									"width": 1080,
+									"height": 1350,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				},
+				"facebook": {
+					"listConfig": {
+						"listTitleKey": "web_toolsIntergration_facebook_size",
+						"list": [
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_post.png",
+								"titleKey": "web_toolsIntergration_facebook_post",
+								"content": "940×788px",
+								"scenario": "facebook_post",
+								"extInfo": {
+									"width": 940,
+									"height": 788,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_cover.png",
+								"titleKey": "web_toolsIntergration_facebook_cover",
+								"content": "1640×924px",
+								"scenario": "facebook_cover",
+								"extInfo": {
+									"width": 1640,
+									"height": 924,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_ad.png",
+								"titleKey": "web_toolsIntergration_facebook_ad",
+								"content": "810×450px",
+								"scenario": "facebook_ad",
+								"extInfo": {
+									"width": 810,
+									"height": 450,
+									"unit": "px"
+								}
+							},
+							{
+								"image": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/banner_facebook_app_ad.png",
+								"titleKey": "web_toolsIntergration_facebook_app_ad",
+								"content": "1200×628px",
+								"scenario": "facebook_app_ad",
+								"extInfo": {
+									"width": 1200,
+									"height": 628,
+									"unit": "px"
+								}
+							}
+						]
+					}
+				}
+			},
+			"createNewImageOptionList": [
+				{
+					"type": "customSize",
+					"titleKey": "web_toolsIntergration_custom_size"
+				},
+				{
+					"type": "instagram",
+					"titleKey": "web_toolsIntergration_instagram_size"
+				},
+				{
+					"type": "facebook",
+					"titleKey": "web_toolsIntergration_facebook_size"
+				},
+				{
+					"type": "youtube",
+					"titleKey": "web_toolsIntergration_youtube_size"
+				},
+				{
+					"type": "tikTok",
+					"titleKey": "web_toolsIntergration_tiktok_size"
+				},
+				{
+					"type": "twitter",
+					"titleKey": "web_toolsIntergration_twitter_size"
+				},
+				{
+					"type": "linkedIn",
+					"titleKey": "web_toolsIntergration_linkedin_size"
+				},
+				{
+					"type": "snapchat",
+					"titleKey": "web_toolsIntergration_snapchat_size"
+				},
+				{
+					"type": "twitch",
+					"titleKey": "web_toolsIntergration_twitch_size"
+				}
+			]
+		}
+	]
+}['bee_dsrc_14485'][0];
+window.__BEE_DATA_START_PAGE_CREATE_NEW_CONFIG__ = { createNewImageOptionList, createNewImageConfig, createNewVideoList, createNewImageList, createNewToolConfig };

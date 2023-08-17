@@ -1,0 +1,77 @@
+/**
+*_BEE_DATA会通过选中的数据源后替换掉
+* 结构可以参考数据源结构
+**/
+window.__BEE_DATA_START_PAGE_ENTRANCE_LIST__ = {
+	"bee_dsrc_14517": [
+		{
+			"id": 1451700000001,
+			"entranceId": "0",
+			"showType": "0",
+			"actionType": "1",
+			"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/icon_entrance_new_video.png",
+			"titleKey": "web_toolsIntergration_button_create_new_videos",
+			"route": "/editor",
+			"style": {
+				"background": "linear-gradient(102.44deg, #00C6DD 1.62%, #13D8EC 32.5%, #BEF3FF 100%)"
+			},
+			"darkStyle": {
+				"background": "linear-gradient(102.44deg, #00C6DD 1.62%, #13D8EC 32.5%, #BEF3FF 100%)",
+				"boxShadow": "0px 4px 24px rgba(31, 66, 102, 0.06)"
+			},
+			"entranceType": "0"
+		},
+		{
+			"id": 1451700000002,
+			"entranceId": "1",
+			"showType": "0",
+			"actionType": "0",
+			"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/icon_entrance_new_image.png",
+			"titleKey": "web_toolsIntergration_button_create_new_image",
+			"route": "",
+			"style": {
+				"background": "linear-gradient(285.39deg, rgba(158, 128, 255, 0.4) -2.87%, rgba(194, 177, 248, 0) 27.22%), linear-gradient(107.57deg, #78E4EF -0.21%, #E3EBFB 38.03%, #F0ECFD 50.49%, #FDA8FF 98.69%)"
+			},
+			"darkStyle": {
+				"background": "linear-gradient(285.39deg, rgba(158, 128, 255, 0.4) -2.87%, rgba(194, 177, 248, 0) 27.22%), linear-gradient(107.57deg, #78E4EF -0.21%, #E3EBFB 38.03%, #F0ECFD 50.49%, #FDA8FF 98.69%)"
+			},
+			"entranceType": "1"
+		},
+		{
+			"id": 1451700000003,
+			"entranceId": "1003",
+			"showType": "1",
+			"actionType": "1",
+			"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/icon_entrance_script.png",
+			"titleKey": "web_toolsIntergration_button_ad_script",
+			"route": "/editor-tools/script",
+			"style": {
+				"background": "rgba(255, 255, 255, 0.8)",
+				"backdropFilter": "blur(10px)"
+			},
+			"darkStyle": {
+				"background": "var(--lvv-color-fill-transparency-block)",
+				"backdropFilter": "blur(10px)"
+			},
+			"entranceType": "2"
+		},
+		{
+			"id": 1451700000004,
+			"entranceId": "3",
+			"showType": "1",
+			"actionType": "0",
+			"icon": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/icon_entrance_share.png",
+			"titleKey": "web_toolsIntergration_button_share_review",
+			"route": "",
+			"style": {
+				"background": "rgba(255, 255, 255, 0.8)",
+				"backdropFilter": "blur(10px)"
+			},
+			"darkStyle": {
+				"background": "var(--lvv-color-fill-transparency-block)",
+				"backdropFilter": "blur(10px)"
+			},
+			"entranceType": "3"
+		}
+	]
+}['bee_dsrc_14517']
